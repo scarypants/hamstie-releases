@@ -18,12 +18,12 @@
 
 ## 1. 설치
 
-1. [**Releases 페이지**](https://github.com/scarypants/hamstie-releases/releases/latest)에서 가장 최신 버전의 `Hamstie Setup x.x.x.exe`를 내려받으세요.
+1. [**Releases 페이지**](https://github.com/scarypants/hamstie-releases/releases/latest)에서 가장 최신 버전의 `Hamstie-Setup-x.x.x.exe`를 내려받으세요.
 2. 파일을 실행하면 자동으로 설치되고 바로 앱이 켜져요. (관리자 권한, Node.js 설치 모두 필요 없어요.)
 3. **"Windows의 PC 보호" 화면이 뜨면** 앱이 정식 서명 인증서 없이 배포돼서 나오는 경고예요.
    `추가 정보` → `실행`을 누르면 돼요. 공식 릴리스에서 받은 파일인지는 릴리스 노트에 적힌 **SHA-256 체크섬**과 비교해 확인할 수 있어요.
    ```
-   certutil -hashfile "Hamstie Setup x.x.x.exe" SHA256
+   certutil -hashfile "Hamstie-Setup-x.x.x.exe" SHA256
    ```
 
 - 지원: Windows 10 / 11 (64비트)
